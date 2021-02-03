@@ -1,0 +1,32 @@
+																				
+																				
+																				
+			simple led with switch																	Powerbus starts at index 0
+																				
+FROM arduino																				
+																				
+5 volt (red wire)						POWERBUS 0 → 0st Positive connection														
+Ardunio GROUND						POWERBUS 0 → 1st Negative connection														
+																				
+																				
+breadboard 																				
+																				
+POWERBUS						PROTO AREA														
+																				
+PB1	1	positive		--->		8B														
+																				
+						SWITCH 														
+						TOP LEFT			8E											
+						TOP RIGHT			8F											
+						BOT LEFT			10E											
+						BOT RIGHT			10F											
+																				
+						Connection from switch to led power														
+						10D	to 	13D												
+																				
+						LED RED														
+						Anode long side				13E										
+										14E										
+																				
+						Connection from LED to ground helper wire														
+PB2	1	to negative				14A														
