@@ -1,0 +1,48 @@
+																
+Project 002A																
+			Powerbus starts at index 0													
+			simple led with 2 switches in parallel													
+																
+FROM arduino																
+																
+5 volt (red wire)						POWERBUS 0 → 0st Positive connection										
+Ardunio GROUND						POWERBUS 0 → 1st Negative connection										
+																
+																
+breadboard 																
+																
+POWERBUS						PROTO AREA										
+																
+PB1	1	positive		--->		8A	Resistor									
+																
+						SWITCH   UNIT A										
+						TOP LEFT			8E							
+						TOP RIGHT			8F							
+						BOT LEFT			10E							
+						BOT RIGHT			10F							
+																
+						SWITCH   UNIT B										
+						TOP LEFT			12E							
+						TOP RIGHT			12F							
+						BOT LEFT			14E							
+						BOT RIGHT			14F							
+																
+						First shared connection 										
+						8B to 12B										
+																
+						2nd shared connect										
+						14B to 20B										
+																
+						10A to 20A										
+																
+																
+						Connection from switch to led power										
+						10D	to 	13D								
+																
+						LED RED										
+						Anode long side				20E						
+										21E						
+																
+						Connection from LED to ground helper wire										
+PB2	1	to negative				21A										
+																
