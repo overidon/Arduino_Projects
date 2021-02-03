@@ -7,7 +7,7 @@ Worked on 2/2/2021
 																				
 FROM arduino																				
 																				
-5 volt (red wire)						POWERBUS 0 → 0st Positive connection														
+5 volt (red wire)					POWERBUS 0 → 0st Positive connection														
 Ardunio GROUND						POWERBUS 0 → 1st Negative connection														
 																				
 																				
