@@ -15,7 +15,8 @@ breadboard
 																				
 POWERBUS						PROTO AREA														
 																				
-PB1	1	positive		--->		8B														
+PB1	1	positive		--->		8A	Resistor	
+														
 																				
 						SWITCH 														
 						TOP LEFT			8E											
